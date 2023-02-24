@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 driver = webdriver.Firefox(executable_path = r'C:/Users/pasan/Downloads/geckodriver-v0.32.2-win64/geckodriver.exe') #web driver local file location
 
-driver.get('https://lms.sliit.lk/login/index.php') #target website url
+driver.get('www.hello.com/yourLinkThere') #target website url
 
 email = driver.find_element(By.ID, 'username')  #email or username section
 email.send_keys('#Put your cute username here#');
